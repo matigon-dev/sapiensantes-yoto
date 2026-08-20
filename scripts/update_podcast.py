@@ -66,13 +66,24 @@ def get_audio_url(entry):
 
 
 def episode_id(entry, audio_url):
-    if entry.get("id"):
-        return str(entry["id"]).strip()
+    import re
 
-    if entry.get("guid"):
-        return str(entry["guid"]).strip()
+    # RTVE suele incluir el ID numérico del audio en la URL.
+    # Ejemplo: https://www.rtve.es/a/17179109/.mp3
+    candidates = [
+        audio_url,
+        str(entry.get("id", "")),
+        str(entry.get("guid", "")),
+    ]
 
-    return audio_url.rstrip("/").split("/")[-1].replace(".mp3", "")
+    for value in candidates:
+        matches = re.findall(r"\d{6,}", value)
+
+        if matches:
+            return matches[-1]
+
+    # Fallback seguro si RTVE cambia el formato
+    return str(abs(hash(audio_url)))
 
 
 def download_audio(url, destination):

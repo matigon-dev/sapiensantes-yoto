@@ -3,7 +3,7 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
 
-    <title>Sapiensantes - Cloudflare Test 3</title>
+    <title>Sapiensantes - GitHub Direct Test</title>
 
     <link>https://www.rtve.es/play/audios/sapiensantes/</link>
 
@@ -19,8 +19,8 @@
 
       <title>¿Por qué existen los eclipses? - Test</title>
 
-      <guid isPermaLink="false">
-          sapiensantes-yoto-cloudflare-test-3
+     <guid isPermaLink="false">
+       sapiensantes-github-release-test-1
      </guid>
 
       <description>
@@ -28,10 +28,9 @@
       </description>
 
       <enclosure
-       url="https://sapiensantes-yoto-proxy.yomatigon.workers.dev/audio.mp3"
-       type="audio/mpeg" />
-
-    </item>
+          url="https://github.com/matigon-dev/sapiensantes-yoto/releases/download/test-1/1786127811547.mp3"
+          type="audio/mpeg" />
+     </item>
 
   </channel>
 </rss>

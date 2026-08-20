@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+
+    <title>Sapiensantes - Yoto Test</title>
+
+    <link>https://www.rtve.es/play/audios/sapiensantes/</link>
+
+    <description>
+      Feed de prueba para comprobar compatibilidad entre RTVE y Yoto Player.
+    </description>
+
+    <language>es</language>
+
+    <itunes:author>RTVE</itunes:author>
+
+    <item>
+
+      <title>¿Por qué existen los eclipses? - Test</title>
+
+      <guid isPermaLink="false">
+        sapiensantes-yoto-test-17165846
+      </guid>
+
+      <description>
+        Episodio de prueba de Sapiensantes.
+      </description>
+
+      <enclosure
+        url="https://rtve-mediavod-lote3.rtve.es/resources/SHO_SAPRNE/mp3/2/5/1785135419752.mp3?idasset=17165846"
+        type="audio/mpeg" />
+
+    </item>
+
+  </channel>
+</rss>

@@ -109,12 +109,31 @@ def download_audio(url, destination):
                     f.write(chunk)
 
 
+def asset_exists(filename):
+    result = subprocess.run(
+        [
+            "gh", "release", "view", RELEASE_TAG,
+            "--json", "assets",
+            "--jq", f'.assets[] | select(.name=="{filename}") | .name'
+        ],
+        capture_output=True,
+        text=True
+    )
+
+    return filename in result.stdout
+
+
 def upload_episode(asset_path):
+    filename = asset_path.name
+
+    if asset_exists(filename):
+        print(f"Already uploaded: {filename}")
+        return
+
     run([
         "gh", "release", "upload",
         RELEASE_TAG,
-        str(asset_path),
-        "--clobber"
+        str(asset_path)
     ])
 
 
@@ -195,13 +214,16 @@ def main():
         filename = f"{ep_id}.mp3"
 
         if ep_id not in state["episodes"]:
-            print("New episode:", entry.get("title"))
-
-            with tempfile.TemporaryDirectory() as tmp:
-                destination = Path(tmp) / filename
-                download_audio(audio_url, destination)
-                upload_episode(destination)
-
+            print("Processing episode:", entry.get("title"))
+        
+            if asset_exists(filename):
+                print(f"Already on GitHub: {filename}")
+            else:
+                with tempfile.TemporaryDirectory() as tmp:
+                    destination = Path(tmp) / filename
+                    download_audio(audio_url, destination)
+                    upload_episode(destination)
+        
             state["episodes"][ep_id] = {
                 "filename": filename,
                 "mirror_url": release_url(filename)

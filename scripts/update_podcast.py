@@ -186,6 +186,12 @@ def build_rss(episodes):
     </description>
     <language>es</language>
     <itunes:author>RTVE</itunes:author>
+    <itunes:image href="https://matigon-dev.github.io/sapiensantes-yoto/cover.jpg" />
+    <image>
+      <url>https://matigon-dev.github.io/sapiensantes-yoto/cover.jpg</url>
+      <title>Sapiensantes</title>
+      <link>https://www.rtve.es/play/audios/sapiensantes/</link>
+    </image>
 {"".join(items)}
   </channel>
 </rss>

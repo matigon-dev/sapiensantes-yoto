@@ -1,3 +1,84 @@
 {
-  "episodes": {}
+  "episodes": {
+    "17179109": {
+      "filename": "17179109.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17179109.mp3"
+    },
+    "17173462": {
+      "filename": "17173462.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17173462.mp3"
+    },
+    "17165846": {
+      "filename": "17165846.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17165846.mp3"
+    },
+    "17156403": {
+      "filename": "17156403.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17156403.mp3"
+    },
+    "17148255": {
+      "filename": "17148255.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17148255.mp3"
+    },
+    "17136451": {
+      "filename": "17136451.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17136451.mp3"
+    },
+    "17078278": {
+      "filename": "17078278.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17078278.mp3"
+    },
+    "17088741": {
+      "filename": "17088741.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/17088741.mp3"
+    },
+    "16999332": {
+      "filename": "16999332.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16999332.mp3"
+    },
+    "16930605": {
+      "filename": "16930605.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16930605.mp3"
+    },
+    "16919945": {
+      "filename": "16919945.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16919945.mp3"
+    },
+    "16913512": {
+      "filename": "16913512.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16913512.mp3"
+    },
+    "16903587": {
+      "filename": "16903587.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16903587.mp3"
+    },
+    "16894471": {
+      "filename": "16894471.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16894471.mp3"
+    },
+    "16887673": {
+      "filename": "16887673.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16887673.mp3"
+    },
+    "16879282": {
+      "filename": "16879282.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16879282.mp3"
+    },
+    "16871602": {
+      "filename": "16871602.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16871602.mp3"
+    },
+    "16866497": {
+      "filename": "16866497.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16866497.mp3"
+    },
+    "16852256": {
+      "filename": "16852256.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16852256.mp3"
+    },
+    "16688449": {
+      "filename": "16688449.mp3",
+      "mirror_url": "https://github.com/matigon-dev/sapiensantes-yoto/releases/download/episodes/16688449.mp3"
+    }
+  }
 }

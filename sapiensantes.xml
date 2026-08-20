@@ -9,6 +9,12 @@
     </description>
     <language>es</language>
     <itunes:author>RTVE</itunes:author>
+    <itunes:image href="https://matigon-dev.github.io/sapiensantes-yoto/cover.jpg" />
+    <image>
+      <url>https://matigon-dev.github.io/sapiensantes-yoto/cover.jpg</url>
+      <title>Sapiensantes</title>
+      <link>https://www.rtve.es/play/audios/sapiensantes/</link>
+    </image>
 
     <item>
       <title>Sapiensantes - T4 - E8. ¿Cómo se formó la Tierra?</title>
